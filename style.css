@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav {
+    width: 100vw;
+    background: #0F3460;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 7rem;
+    color: #eee;
+    font-size: 130%;
+    padding: 4rem;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.cta {
+    width: 10rem;
+    padding: 0.7rem;
+    font-size: 70%;
+    border: none;
+    background: #AE445A;
+    color: #eee;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    cursor: pointer;
+    background: hsl(348, 44%, 37%);
+    transition: 0.2s;
+}
+
+.banner {
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+
+.banner>figure {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(69, 25, 82, 0.7), 80%, rgba(174, 68, 90, 0.5)), url(/img/pexels-gabriel-freytez-341523.webp);
+    background-position: center;
+    object-fit: contain;
+
+
+}
+
+
+.banner>figure>div {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+    display: flex;
+    transform: translate(50%, 50%);
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    color: #eee;
+}
+
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+}
+
+.heading2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+
+.logo {
+    font-size: 250%;
+    color: #eee;
+    border: 0.5rem solid #AE445A;
+    border-radius: 50%;
+    padding: 1.4rem;
+}
